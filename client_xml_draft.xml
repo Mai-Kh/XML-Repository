@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GraphicDesigner [
+<!ELEMENT GraphicDesigner (Art)>
+<!ELEMENT Art (Category+)>
+<!ELEMENT Category (Type, ExperienceLvl, Showcase+)>
+<!ELEMENT Showcase (Client, Image+)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT ExperienceLvl (#PCDATA)>
+<!ELEMENT Client (#PCDATA)>
+<!ELEMENT Image (#PCDATA)>
+]>
+
+
+<StaciDieball>
+   <Art>
+      <Category>
+         <Type>Illustrations</Type>
+         <Showcase>
+            <Client>ClientA</Client>
+            <Image>Dot_Portrait</Image>
+            <Image>triangle_portrait</Image>
+         </Showcase>
+         <Showcase>
+            <Client>ClientB</Client>
+            <Image>screenprint1</Image>
+            <Image>screenprint2</Image>
+         </Showcase>
+      </Category>
+      <Category>
+         <Type>Graphic Design</Type>
+         <Showcase>
+            <Client>The Scoop</Client>
+            <Image>the_scoop_shirt1</Image>
+            <Image>the_scoop_shirt2</Image>
+         </Showcase>
+      </Category>
+      <Category>
+         <Type>Logos</Type>
+         <Showcase>
+            <Client>Remedy</Client>
+            <Image>remedy1</Image>
+            <Image>remedy2</Image>
+         </Showcase>
+         <Showcase>
+            <Client>Polymath</Client>
+            <Image>polymathwine_1</Image>
+            <Image>polymathwine_2</Image>
+         </Showcase>
+      </Category>
+      <Category>
+         <Type>Advertising</Type>
+         <Showcase>
+            <Client>The Scoop</Client>
+            <Image>the_scoop_billboard</Image>
+         </Showcase>
+         <Showcase>
+            <Client>The Nepeta Effect</Client>
+            <Image>boxart1</Image>
+            <Image>catnip1</Image>
+         </Showcase>
+      </Category>
+   </Art>
+</StaciDieball>
