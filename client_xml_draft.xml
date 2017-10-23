@@ -2,7 +2,7 @@
 <!DOCTYPE GraphicDesigner [
 <!ELEMENT GraphicDesigner (Art)>
 <!ELEMENT Art (Category+)>
-<!ELEMENT Category (Type, ExperienceLvl, Showcase+)>
+<!ELEMENT Category (Type, Showcase+)>
 <!ELEMENT Showcase (Client, Image+)>
 <!ELEMENT Type (#PCDATA)>
 <!ELEMENT ExperienceLvl (#PCDATA)>
@@ -11,7 +11,7 @@
 ]>
 
 
-<StaciDieball>
+<GraphicDesigner>
    <Art>
       <Category>
          <Type>Illustrations</Type>
@@ -60,4 +60,4 @@
          </Showcase>
       </Category>
    </Art>
-</StaciDieball>
+</GraphicDesigner>
